@@ -30,14 +30,14 @@ cd PySolFC
 
 # Run the setup
 # May take 1-2 minutes to complete!
-./setup.sh
+bash ./setup.sh
 ```
 
 To play the game simply run the following command.
 
 ```bash
 # You must be inside the `PySolFC` folder!
-./play.sh
+bash ./play.sh
 ```
 
 ## Troubleshooting
@@ -59,11 +59,13 @@ sudo apt-get install tk
 ```
 
 If you are on Arch:
+
 ```bash
 sudo pacman -S tk
 ```
 
 If you are on Fedora:
+
 ```bash
 sudo dnf install tk
 ```
